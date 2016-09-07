@@ -1,0 +1,14 @@
+You can turn this in as plain text; you don't need to show us the code.
+
+Describe your chosen text collection: what is its provenance (where did you get it from), what is it about, and without processing it yet, what kind of markup, if any, does it have?  How many megabytes is it?
+Let's do some initial computation on your collection.  Please do the following.
+Load in the contents of your text collection into a string in memory.
+Compute and report the length of the string.
+Split the string on spaces.
+Compute the total number of tokens that results from splitting it this way and report on the result.
+Compute the number of unique tokens in your collection.
+
+
+The text file I choose for my future study is "The History of North America" written by Lee, Guy Carleton and Thorpe, F. N and published in 1903, which I get from Internet Archive. The book is about the history and past development of people populating the continent of North America. The text I download is about 1.1 Megabytes with filename suffix 'txt', but when I open it, the book is actually html formatted with whole articles embedded in pre tag.
+
+After removing all the irrelevant tags, I get the pure text book. By opening and loading the whole content into a string, I get the length of the string is 1077019. After splitting the string on spaces, I get 180991 total tokens, with 29968 unique tokens.
